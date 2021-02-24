@@ -16,7 +16,9 @@ function updateCurrentTime(){
     curMins = curDate.getMinutes(),
     curSecs = curDate.getSeconds();  
     console.log(paneElement);
-    paneElement.innerText = `${curHours}:${curMins}:${curSecs}`;
+    paneElement.innerText = `${curHours > 9 ? curHours : `0${curHours}`}:${
+        curMins > 9 ? curMins : `0${curMins}`
+    }:${curSecs > 9 ? curSecs : `0${curSecs}`}`;
 }
 
 function startClock(){

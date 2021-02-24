@@ -1,0 +1,32 @@
+
+.timepane{
+    font-size: xx-large;
+    font-style: italic;
+    color: blueviolet;
+}
+
+.js-form{
+    display: none;
+}
+.nameInput{
+    font-size: 20px;
+    font-weight: bolder;
+    color: chocolate;
+}
+.greetings{
+    display: none;    
+    font-size: 20px;
+}
+.showing{
+    display: block;
+    font-family: Impact;
+    font-style: oblique;
+    font-size: 40px;
+    color: darkblue;
+    transition: font-size 4s;
+    transform: scale(110%, 110%);
+}
+.hover{
+    background-color: aqua;
+    transform: rotate(5deg);
+}
